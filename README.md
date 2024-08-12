@@ -10,14 +10,14 @@
   <a href="https://bloxflip.com/a/bloxstrap">
     <img src="https://bloxflip.com/logotype.svg" width="200">
   </a>
-</h3>
+</h3> 
 
 > [!CAUTION]
 > Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.
 
-#### Version: `7.22.24`
-* **172 Currently Listed**
-* `Adjust Default Timeout Time`
+#### Version: `8.4.24` - `8.10.24`
+* **176 Currently Listed**
+* `E e ei/Charlie the steak` `Vehicle Speed 1` `Vehicle Speed 2` `Void Unanchored Parts` `Enable Better Haptics` `Remove Haptics Option` `Custom Accessory Positions`
 
 ## Bloxstrap How to Use:
 1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
@@ -44,12 +44,9 @@
 3. **Include a Place ID after the semicolon. Examples: `True;4483381587`, `1;4483381587`.**
 4. **Your configuration is complete!**
 
-[Watch a Video Tutorial](https://www.youtube.com/watch?v=5XjhPF5ydJM)
+###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
 
-## How to Fix 403 in <2.5.4 Bloxstrap
-https://gist.github.com/burgerboxer/c8bf0bb56dc848da9552aedb3467b117.
-
- # List Navigation
+# List Navigation
 * **[Rendering](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#rendering)**
 * **[Lightning Technologies](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file##lightning-technologies)**
 * **[Graphical](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#graphical-settings)**
@@ -222,13 +219,6 @@ High
     "DFIntDebugRestrictGCDistance": "1"
 }
 ```
-### Disable Wind
-```json
-{
-    "FFlagGlobalWindRendering": "False",
-    "FFlagGlobalWindActivated": "False"
-}
-```
 ### Limits light updates
 ```json
 {
@@ -345,7 +335,6 @@ High
     "FIntFRMMinGrassDistance": "0",
     "FIntFRMMaxGrassDistance": "0",
     "FIntRenderGrassDetailStrands": "0",
-    "FIntRenderGrassHeightScaler": "0"
 }
 ```
 ### Force MSAA 
@@ -582,6 +571,14 @@ High
     "FFlagDebugDisplayFPS": "True"
 }
 ```
+### Verified Badge
+###### Clientsided
+###### when did i removed this lol
+```json
+{
+    "FStringWhitelistVerifiedUserId": "UserID"
+}
+```
 ### Verified Badge on everyone
 ###### Clientsided
 ```json
@@ -611,26 +608,6 @@ High
 ```json
 {
     "FIntRobloxGuiBlurIntensity": "0"
-}
-```
-<!-- No longer working in 631
-### Revert New "Builder" Font
-```json
-{
-    "FFlagUIBloxDevUseNewFontNameMapping": "False",
-    "FFlagEnableNewFontNameMappingABTest2": "False",
-    "FFlagAddArialToLegacyContent": "False",
-    "FFlagAddGothamToLegacyContent": "False"
-}
-```
--->
-### Revert Old Report Menu
-```json
-{
-    "FStringReportAbuseMenuRoactForcedUserIds": "null",
-    "FFlagEnableReportAbuseMenuRoactABTest2": "False",
-    "FFlagEnableReportAbuseMenuRoact2": "False",
-    "FFlagEnableReportAbuseMenuLayerOnV3": "False"
 }
 ```
 ### Disable New Chat Translation Settings
@@ -727,7 +704,7 @@ High
 ### Break Top Bar Menu
 ```json
 {
-    "FStringNewInGameMenuForcedUserIds": "UserID",
+    "FStringNewInGameMenuForceds": "UserID",
     "FFlagEnableInGameMenuChrome": "True"
 }
 ```
@@ -741,12 +718,6 @@ High
 ```json
 {
     "FFlagEnableBubbleChatFromChatService": "False"
-}
-```
-### Disable Selfview
-```json
-{
-    "FFlagCoreGuiTypeSelfViewPresent": "False"
 }
 ```
 ### Disable Camera & Selfview
@@ -766,7 +737,6 @@ High
 {
     "FFlagVoiceBetaBadge": "False",
     "FFlagTopBarUseNewBadge": "False",
-    "FFlagEnableBetaBadgeLearnMore": "False",
     "FFlagBetaBadgeLearnMoreLinkFormview": "False",
     "FFlagControlBetaBadgeWithGuac": "False",
     "FStringVoiceBetaBadgeLearnMoreLink": "null"
@@ -807,6 +777,28 @@ High
 
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
+### Custom Accessory Positions
+```
+{
+    "FFlagAXAccessoryAdjustment": "True",
+    "FFlagAXAccessoryAdjustmentIXPEnabled": "True",
+    "FFlagAXAccessoryAdjustmentIXPEnabledForAll": "True",
+    "FFlagAXAvatarFetchResultCamelCase": "True",
+    "FFlagAccessoryAdjustmentEnabled3": "True"
+}
+```
+### Disable Haptics Option
+```json
+{
+    "FFlagAddHapticsToggle": "False"
+}
+```
+### Enable Better Haptics
+```json
+{
+    "FFlagEnableBetterHapticsResultHandling": "True"
+}
+```
 ### Chrome UI TopBar
 ```json
 {
@@ -833,12 +825,6 @@ High
 ```json
 {
     "FFlagEnableChromePinnedChat": "True"
-}
-```
-### Pin Buttons on Chrome UI
-```json
-{
-    "FFlagEnableChromePinIntegrations": "True"
 }
 ```
 ### Ragdoll Death Type
@@ -1038,7 +1024,7 @@ High
 }
 ```
 ### Noclip 3
-###### @burgerboxer & @juicyleg
+###### @burgerboxer & @dis_spencer
 ```json
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
@@ -1086,10 +1072,18 @@ High
     "DFIntDebugSimPrimalLineSearch": "3"
 }
 ```
+### Void Unanchored Parts
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "222"
+}
+```
 ### Low Gravity 2
 ###### this is more buggy
 ```json
 {
+  "FFlagDebugSimDefaultPrimalSolver": "True",
   "DFIntDebugSimPrimalPreconditioner": "100",
   "DFIntDebugSimPrimalPreconditionerMinExp": "100",
   "DFIntDebugSimPrimalNewtonIts": "1",
@@ -1097,6 +1091,36 @@ High
   "DFIntDebugSimPrimalWarmstartVelocity": "-150",
   "DFIntDebugSimPrimalWarmstartForce": "-775",
   "DFIntDebugSimPrimalToleranceInv": "1"
+}
+```
+### Low Gravity 2 Control on Parts Improvement
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalNewtonIts": "1",
+    "DFIntDebugSimPrimalPreconditioner": "15",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "10",
+    "DFIntDebugSimPrimalToleranceInv": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "-150",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100"
+}
+```
+### Tool Fly
+```json
+{
+    "DFIntMinimalSimRadiusBuffer": "2147000000",
+    "DFIntMinClientSimulationRadius": "2147000000",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "DFIntMaxClientSimulationRadius": "2147000000",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntNonSolidFloorPercentForceApplication": "-12000",
+    "DFIntDebugSimPrimalPreconditioner": "100",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "100",
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalWarmstartVelocity": "-150",
+    "DFIntDebugSimPrimalWarmstartForce": "-775",
+    "DFIntDebugSimPrimalToleranceInv": "1"
 }
 ```
 ### Backwards SpeedHax
@@ -1112,6 +1136,25 @@ High
   "DFIntDebugSimPrimalWarmstartForce": "-885",
   "DFIntDebugSimPrimalWarmstartVelocity": "-350",
   "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+### Vehicle Speed 1
+```json
+{
+    "DFIntDebugSimPrimalWarmstartForce": "40",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "41"
+}
+```
+### Vehicle Speed 2
+###### prob the same mess w the values maybe youll get something different
+```json
+{
+    "DFIntDebugSimPrimalLineSearch": "50",
+    "DFIntDebugSimPrimalWarmstartVelocity": "103",
+    "DFIntDebugSimPrimalStiffness": "300",
+    "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
 }
 ```
 
@@ -1174,6 +1217,16 @@ High
 
 <h1 align="center">lol</h1>
 
+### E e ei/Charlie the steak fflag
+###### the fflag is on vacation sorry for inconvenience lol
+
+
+### Stop the Chinese from spying on you
+```json
+{
+    "FStringTencentAuthPath": "null"
+}
+```
 ### Don't Touch The Wall!
 ```json
 {
@@ -1342,29 +1395,73 @@ High
 <h4 align="center">⁺ You've reached the bottom of the list! ⁺</h4>
 
 <h3 align="center">
-  <a href="https://open.spotify.com/track/5wttBUDyaHAR5q9fYnN3YF">
-    <img src="https://i.scdn.co/image/ab67616d0000b273bbdceba2bf1867d4966d0347" width="256" alt="Listen on Spotify">
+  <a href="https://open.spotify.com/track/5v1yAVGillOAN3yqJ6pmPL">
+    <img src="https://i.scdn.co/image/ab67616d0000b273a2b4b9962756bbbbab374cc5" width="256" alt="Listen on Spotify">
   </a>
 </h3>
 
-<h3 align="center">prove it - 21 Savage, Summer Walker</h3>
+
+<h3 align="center">Promotion - Y$, Future</h3>
+
 
 <h1 align="center">
-  <a href="https://open.spotify.com/track/5wttBUDyaHAR5q9fYnN3YF">
+  <a href="https://open.spotify.com/track/5v1yAVGillOAN3yqJ6pmPL">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="100">
   </a>
 </h1>
 
-<h4 align="center"><a href="https://discord.gg/YvbuWggPC6">Roblox Glitching Community</a> <a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></h4>
+<h3 align="center">Tools</h3>
+<p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
+<p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
+<h3 align="center">Sources</h3>
+<p align="center"><a href="https://discord.gg/YvbuWggPC6">Roblox Glitching Community</a></p>
+<p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></p>
+<p align="center">The people who found these fastflags</p>
+<div align="center">
+<table>
+  <tr>
+    <th>Label</th>
+    <th>Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Flag</td>
+    <td>bool</td>
+    <td>A boolean variable that can be either true or false.</td>
+  </tr>
+  <tr>
+    <td>Int</td>
+    <td>int</td>
+    <td>An integer variable used to store whole numbers.</td>
+  </tr>
+  <tr>
+    <td>String</td>
+    <td>string</td>
+    <td>A variable used to store a sequence of characters.</td>
+  </tr>
+</table>
 
+<table>
+  <tr>
+    <th>Prefix</th>
+    <th>Label</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>Fast</td>
+    <td>A regular fastvariable that is initialized once<br/>and does not change until a new session begins.</td>
+  </tr>
+  <tr>
+    <td>DF</td>
+    <td>Dynamic Fast</td>
+    <td>A fastvariable that can change at run-time, and<br/>automatically updates every 5 minutes.</td>
+  </tr>
+</table>
+</div>
 <h3 align="center">
   <a href="https://discord.gg/HNe7fzR9xgF">
     <img src="https://c.tenor.com/fWO4Tmw3BeYAAAAC/tenor.gif" width="465">
   </a>
 </h3>
-
-<h4 align="center">luafv 2024®<sup>eal</sup></h4>
-
-<p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
-
-<p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
+<h4 align="center">© 2024 luafv All Rights Reserved.</h4>
