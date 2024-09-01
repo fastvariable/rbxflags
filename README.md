@@ -2,9 +2,11 @@
   <img src="https://c.tenor.com/lMiG1jLB7aIAAAAC/tenor.gif" width="256" alt="Playboi Carti">
 </h3>
 
-<h1 align="center">#RBXFLAGS#UNAVAILABLE#SOON</h1>
+<h1 align="center">#RBXFLAGS</h1>
 
 <h3 align="center">https://discord.gg/fastflags</h3>
+
+<!--
 
 <p align="center">
 Due to recent developments, we regret to inform you that we are no longer able to provide the contents of the list that was previously accessible through our platform. This decision was not made lightly and comes as a result of a combination of legal and security challenges that we have encountered over the past few weeks.
@@ -36,8 +38,6 @@ Thank you for your continued trust in our platform, and we hope to find a way fo
 
 <h4 align="center">© 2024 luafv</h4>
 
-  
-<!--
 > [!NOTE]
 > If you find our repository useful don't forget to star!
 
@@ -48,6 +48,8 @@ Thank you for your continued trust in our platform, and we hope to find a way fo
 </h3>
 
 <h1 align="center">rbxflags</h1>
+
+-->
 
 <h4 align="center">Join our Discord Server for early access FastFlags before we publish</h4>
 
